@@ -1,0 +1,1 @@
+const sumMix = x => x.reduce((total, value) => total + Number(value), 0)
