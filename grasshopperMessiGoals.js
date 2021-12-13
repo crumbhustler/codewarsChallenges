@@ -1,23 +1,18 @@
 // Description:
-// Messi's Goal Total
-// Use variables to find the sum of the goals Messi scored in 3 competitions
+// Messi goals function
+// Messi is a soccer player with goals in three leagues:
 
-// Information
-// Messi goal scoring statistics:
+// LaLiga
+// Copa del Rey
+// Champions
+// Complete the function to return his total number of goals in all three leagues.
 
-// Competition	Goals
-// La Liga	43
-// Champions League	10
-// Copa del Rey	5
-// Task
-// Create these three variables and store the appropriate values using the table above:
-// laLigaGoals
-// championsLeagueGoals
-// copaDelReyGoals
-// Create a fourth variable named totalGoals that stores the sum of all of Messi's goals for this year.
+// Note: the input will always be valid.
 
-let laLigaGoals = 43;
-let championsLeagueGoals = 10;
-let copaDelReyGoals = 5;
+// For example:
 
-let totalGoals = 43 + 10 + 5;
+// 5, 10, 2  -->  17
+
+function goals(laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
+  return laLigaGoals + copaDelReyGoals + championsLeagueGoals;
+}
